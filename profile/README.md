@@ -64,6 +64,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - has-template-literals - [![github][github]](https://github.com/inspect-js/has-template-literals) - [![npm][npm]](https://npmjs.com/has-template-literals) - Determine if the JS environment has template literal support.
  - has-tostringtag - [![github][github]](https://github.com/inspect-js/has-tostringtag) - [![npm][npm]](https://npmjs.com/has-tostringtag) - Determine if the JS environment has `Symbol.toStringTag` support. Supports spec, or shams.
  - has-typed-arrays - [![github][github]](https://github.com/inspect-js/has-typed-arrays) - [![npm][npm]](https://npmjs.com/has-typed-arrays) - Does this environment have JS Typed Arrays?
+ - supports-preserve-symlinks-flag - [![github][github]](https://github.com/inspect-js/node-supports-preserve-symlinks-flag) - [![npm][npm]](https://npmjs.com/supports-preserve-symlinks-flag) - Determine if the current node version supports the `--preserve-symlinks` flag.
 
 </details>
 

@@ -67,7 +67,7 @@ repos.forEach((x) => {
     if (x.repo.endsWith('-equal') || x.repo.endsWith('-is')) {
         pkgs.comparisons.push(x);
         pkgs.comparisons.sort(sortRepo);
-    } else if (x.repo.startsWith('has-') || x.repo.startsWith('available-') || x.repo.includes('-have-')) {
+    } else if (x.repo.startsWith('has-') || x.repo.startsWith('available-') || x.repo.includes('-have-') || x.repo.includes('supports-')) {
         pkgs.environment.push(x);
         pkgs.environment.sort(sortRepo);
     } else if (x.repo.startsWith('which-') || x.repo.startsWith('get-') || x.repo.includes('inspect') || x.repo.endsWith('-length')) {

@@ -49,6 +49,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Packages that tell you about the JS env.</summary>
 <br />
 
+ - available-regexp-flags - [![github][github]](https://github.com/inspect-js/available-regexp-flags) - [![npm][npm]](https://npmjs.com/available-regexp-flags) - Which regular expression flags does the current environment support?
  - available-typed-arrays - [![github][github]](https://github.com/inspect-js/available-typed-arrays) - [![npm][npm]](https://npmjs.com/available-typed-arrays) - Returns an array of Typed Array names that are available in the current environment
  - functions-have-names - [![github][github]](https://github.com/inspect-js/functions-have-names) - [![npm][npm]](https://npmjs.com/functions-have-names) - Does this JS environment support the `name` property on functions?
  - has-bigints - [![github][github]](https://github.com/inspect-js/has-bigints) - [![npm][npm]](https://npmjs.com/has-bigints) - Determine if the JS environment has BigInt support.

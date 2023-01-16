@@ -6,7 +6,9 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Functions that ask a question and produce a yes or no answer (`true` or `false`).</summary>
 <br />
 
+ - defined - [![github][github]](https://github.com/inspect-js/defined) - [![npm][npm]](https://npmjs.com/defined) - return the first argument that is `!== undefined`
  - is-arguments - [![github][github]](https://github.com/inspect-js/is-arguments) - [![npm][npm]](https://npmjs.com/is-arguments) - Is this an arguments object? It's a harder question than you think.
+ - is-array-buffer - [![github][github]](https://github.com/inspect-js/is-array-buffer) - [![npm][npm]](https://npmjs.com/is-array-buffer) - Is this value a JS ArrayBuffer?
  - is-arrow-function - [![github][github]](https://github.com/inspect-js/is-arrow-function) - [![npm][npm]](https://npmjs.com/is-arrow-function) - Determine if a function is an ES6 arrow function or not.
  - is-async-function - [![github][github]](https://github.com/inspect-js/is-async-function) - [![npm][npm]](https://npmjs.com/is-async-function) - Determine if a function is a native async function.
  - is-bigint - [![github][github]](https://github.com/inspect-js/is-bigint) - [![npm][npm]](https://npmjs.com/is-bigint) - Is this value an ES BigInt?
@@ -41,6 +43,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Packages that compare two things.</summary>
 <br />
 
+ - buffer-equal - [![github][github]](https://github.com/inspect-js/buffer-equal) - [![npm][npm]](https://npmjs.com/buffer-equal) - return whether two buffers are equal
  - is-equal - [![github][github]](https://github.com/inspect-js/is-equal) - [![npm][npm]](https://npmjs.com/is-equal) - Are these two values conceptually equal?
  - deep-equal - [![github][github]](https://github.com/inspect-js/node-deep-equal) - [![npm][npm]](https://npmjs.com/deep-equal) - node's assert.deepEqual algorithm
 
@@ -64,6 +67,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - has-package-self-reference - [![github][github]](https://github.com/inspect-js/has-package-self-reference) - [![npm][npm]](https://npmjs.com/has-package-self-reference) - Does the current node version have support for requiring/importing its own name?
  - has-private-fields - [![github][github]](https://github.com/inspect-js/has-private-fields) - [![npm][npm]](https://npmjs.com/has-private-fields) - Determine if the JS environment has private fields (`class { #x; }`) support.
  - has-property-descriptors - [![github][github]](https://github.com/inspect-js/has-property-descriptors) - [![npm][npm]](https://npmjs.com/has-property-descriptors) - Does the environment have full property descriptor support? Handles IE 8's broken defineProperty/gOPD.
+ - has-proto - [![github][github]](https://github.com/inspect-js/has-proto) - [![npm][npm]](https://npmjs.com/has-proto) - Does this environment have the ability to get the [[Prototype]] of an object on creation with `__proto__`?
  - has-strict-mode - [![github][github]](https://github.com/inspect-js/has-strict-mode) - [![npm][npm]](https://npmjs.com/has-strict-mode) - Does the current JS environment have strict mode? ES5+ should; but let's not assume.
  - has-symbols - [![github][github]](https://github.com/inspect-js/has-symbols) - [![npm][npm]](https://npmjs.com/has-symbols) - Determine if the JS environment has Symbol support. Supports spec, or shams.
  - has-template-literals - [![github][github]](https://github.com/inspect-js/has-template-literals) - [![npm][npm]](https://npmjs.com/has-template-literals) - Determine if the JS environment has template literal support.
@@ -89,8 +93,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - which-typed-array - [![github][github]](https://github.com/inspect-js/which-typed-array) - [![npm][npm]](https://npmjs.com/which-typed-array) - Which kind of Typed Array is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.
 
 </details>
-
-
 
 [github]: /profile/github-16.png
 [npm]: /profile/npm-16.png

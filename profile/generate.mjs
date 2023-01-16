@@ -88,7 +88,7 @@ repos.forEach((x) => {
 	} else if (x.repo.startsWith('which-') || x.repo.startsWith('get-') || x.repo.includes('inspect') || x.repo.endsWith('-length')) {
 		pkgs.describe.push(x);
 		pkgs.describe.sort(sortRepo);
-	} else if (x.repo.startsWith('is-')) {
+	} else if (x.repo.startsWith('is-') || x.repo.endsWith('defined')) {
 		pkgs.predicates.push(x);
 		pkgs.predicates.sort(sortRepo);
 	} else {

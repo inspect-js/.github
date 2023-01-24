@@ -9,6 +9,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - defined - [![github][github]](https://github.com/inspect-js/defined) - [![npm][npm]](https://npmjs.com/defined) - return the first argument that is `!== undefined`
  - is-arguments - [![github][github]](https://github.com/inspect-js/is-arguments) - [![npm][npm]](https://npmjs.com/is-arguments) - Is this an arguments object? It's a harder question than you think.
  - is-array-buffer - [![github][github]](https://github.com/inspect-js/is-array-buffer) - [![npm][npm]](https://npmjs.com/is-array-buffer) - Is this value a JS ArrayBuffer?
+ - is-array-buffer - [![github][github]](https://github.com/inspect-js/is-array-buffer-tmp) - [![npm][npm]](https://npmjs.com/is-array-buffer) - Is this value a JS ArrayBuffer?
  - is-arrow-function - [![github][github]](https://github.com/inspect-js/is-arrow-function) - [![npm][npm]](https://npmjs.com/is-arrow-function) - Determine if a function is an ES6 arrow function or not.
  - is-async-function - [![github][github]](https://github.com/inspect-js/is-async-function) - [![npm][npm]](https://npmjs.com/is-async-function) - Determine if a function is a native async function.
  - is-bigint - [![github][github]](https://github.com/inspect-js/is-bigint) - [![npm][npm]](https://npmjs.com/is-bigint) - Is this value an ES BigInt?
@@ -93,6 +94,8 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - which-typed-array - [![github][github]](https://github.com/inspect-js/which-typed-array) - [![npm][npm]](https://npmjs.com/which-typed-array) - Which kind of Typed Array is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.
 
 </details>
+
+
 
 [github]: /profile/github-16.png
 [npm]: /profile/npm-16.png

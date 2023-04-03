@@ -7,6 +7,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <br />
 
  - defined - [![github][github]](https://github.com/inspect-js/defined) - [![npm][npm]](https://npmjs.com/defined) - return the first argument that is `!== undefined`
+ - is-accessor-descriptor - [![github][github]](https://github.com/inspect-js/is-accessor-descriptor) - [![npm][npm]](https://npmjs.com/is-accessor-descriptor) - Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.
  - is-arguments - [![github][github]](https://github.com/inspect-js/is-arguments) - [![npm][npm]](https://npmjs.com/is-arguments) - Is this an arguments object? It's a harder question than you think.
  - is-array-buffer - [![github][github]](https://github.com/inspect-js/is-array-buffer) - [![npm][npm]](https://npmjs.com/is-array-buffer) - Is this value a JS ArrayBuffer?
  - is-array-buffer - [![github][github]](https://github.com/inspect-js/is-array-buffer-tmp) - [![npm][npm]](https://npmjs.com/is-array-buffer) - Is this value a JS ArrayBuffer?
@@ -17,7 +18,9 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-boxed-primitive - [![github][github]](https://github.com/inspect-js/is-boxed-primitive) - [![npm][npm]](https://npmjs.com/is-boxed-primitive) - Is this value a boxed primitive? Shim for node's util.isBoxedPrimitive.
  - is-callable - [![github][github]](https://github.com/inspect-js/is-callable) - [![npm][npm]](https://npmjs.com/is-callable) - Is this JS value callable? Works with Functions and GeneratorFunctions, despite ES6 @@toStringTag.
  - is-core-module - [![github][github]](https://github.com/inspect-js/is-core-module) - [![npm][npm]](https://npmjs.com/is-core-module) - Is this specifier a node.js core module?
+ - is-data-descriptor - [![github][github]](https://github.com/inspect-js/is-data-descriptor) - [![npm][npm]](https://npmjs.com/is-data-descriptor) - Returns true if a value has the characteristics of a valid JavaScript data descriptor.
  - is-date-object - [![github][github]](https://github.com/inspect-js/is-date-object) - [![npm][npm]](https://npmjs.com/is-date-object) - Is this value a JS Date object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
+ - is-descriptor - [![github][github]](https://github.com/inspect-js/is-descriptor) - [![npm][npm]](https://npmjs.com/is-descriptor) - Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.
  - is-finalizationregistry - [![github][github]](https://github.com/inspect-js/is-finalizationregistry) - [![npm][npm]](https://npmjs.com/is-finalizationregistry) - Is this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-generator-function - [![github][github]](https://github.com/inspect-js/is-generator-function) - [![npm][npm]](https://npmjs.com/is-generator-function) - Determine if a function is a native generator function.
  - is-map - [![github][github]](https://github.com/inspect-js/is-map) - [![npm][npm]](https://npmjs.com/is-map) - Is this value a JS Map? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
@@ -85,6 +88,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Packages that tell you about a specific JS value.</summary>
 <br />
 
+ - array-buffer-byte-length - [![github][github]](https://github.com/inspect-js/array-buffer-byte-length) - [![npm][npm]](https://npmjs.com/array-buffer-byte-length) - Get the byte length of an ArrayBuffer, even in engines without a `.byteLength` method.
  - get-symbol-description - [![github][github]](https://github.com/inspect-js/get-symbol-description) - [![npm][npm]](https://npmjs.com/get-symbol-description) - Gets the description of a Symbol. Handles `Symbol()` vs `Symbol('')` properly when possible.
  - object-inspect - [![github][github]](https://github.com/inspect-js/object-inspect) - [![npm][npm]](https://npmjs.com/object-inspect) - string representations of objects in node and the browser
  - typed-array-length - [![github][github]](https://github.com/inspect-js/typed-array-length) - [![npm][npm]](https://npmjs.com/typed-array-length) - Robustly get the length of a Typed Array

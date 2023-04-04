@@ -25,6 +25,8 @@ jobs:
       - run: npm install
         working-directory: ./profile
       - run: node profile/generate.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: '[profile] node profile/generate.mjs'

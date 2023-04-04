@@ -14,6 +14,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@v2
+        with:
+          egress-policy: audit
       - uses: actions/checkout@v3
       - uses: ljharb/actions/node/install@main
       - run: node profile/generate.mjs

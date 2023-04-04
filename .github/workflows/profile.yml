@@ -20,6 +20,8 @@ jobs:
           egress-policy: audit
       - uses: actions/checkout@v3
       - uses: ljharb/actions/node/install@main
+        with:
+          skip-install: true
       - run: node profile/generate.mjs
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:

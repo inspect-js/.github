@@ -10,7 +10,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-accessor-descriptor - [![github][github]](https://github.com/inspect-js/is-accessor-descriptor) - [![npm][npm]](https://npmjs.com/is-accessor-descriptor) - Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.
  - is-arguments - [![github][github]](https://github.com/inspect-js/is-arguments) - [![npm][npm]](https://npmjs.com/is-arguments) - Is this an arguments object? It's a harder question than you think.
  - is-array-buffer - [![github][github]](https://github.com/inspect-js/is-array-buffer) - [![npm][npm]](https://npmjs.com/is-array-buffer) - Is this value a JS ArrayBuffer?
- - is-array-buffer - [![github][github]](https://github.com/inspect-js/is-array-buffer-tmp) - [![npm][npm]](https://npmjs.com/is-array-buffer) - Is this value a JS ArrayBuffer?
  - is-arrow-function - [![github][github]](https://github.com/inspect-js/is-arrow-function) - [![npm][npm]](https://npmjs.com/is-arrow-function) - Determine if a function is an ES6 arrow function or not.
  - is-async-function - [![github][github]](https://github.com/inspect-js/is-async-function) - [![npm][npm]](https://npmjs.com/is-async-function) - Determine if a function is a native async function.
  - is-bigint - [![github][github]](https://github.com/inspect-js/is-bigint) - [![npm][npm]](https://npmjs.com/is-bigint) - Is this value an ES BigInt?

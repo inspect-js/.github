@@ -22,6 +22,8 @@ jobs:
       - uses: ljharb/actions/node/install@main
         with:
           skip-install: true
+      - run: npm install
+        working-directory: ./profile
       - run: node profile/generate.mjs
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:

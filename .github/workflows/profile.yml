@@ -2,7 +2,7 @@ name: 'update profile'
 
 on:
   schedule:
-    - cron: '55 * * * *'
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: read

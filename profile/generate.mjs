@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const token = process.env.GH_TOKEN;
+const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
 
 const org = 'inspect-js';
 

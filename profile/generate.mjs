@@ -79,7 +79,7 @@ function sortRepo(a, b) {
 	return a.repo.localeCompare(b.repo);
 }
 repos.forEach((x) => {
-	if (x.repo.endsWith('-equal') || x.repo.endsWith('-is')) {
+	if (x.repo.endsWith('-equal') || x.repo.endsWith('-is') || x.repo.startsWith('deep-equal-')) {
 		pkgs.comparisons.push(x);
 		pkgs.comparisons.sort(sortRepo);
 	} else if (x.repo.startsWith('has-') || x.repo.startsWith('available-') || x.repo.includes('-have-') || x.repo.includes('supports-') || x.repo.endsWith('-info')) {

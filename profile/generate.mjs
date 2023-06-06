@@ -85,7 +85,7 @@ repos.forEach((x) => {
 	} else if (x.repo.startsWith('has-') || x.repo.startsWith('available-') || x.repo.includes('-have-') || x.repo.includes('supports-') || x.repo.endsWith('-info')) {
 		pkgs.environment.push(x);
 		pkgs.environment.sort(sortRepo);
-	} else if (x.repo.startsWith('which-') || x.repo.startsWith('get-') || x.repo.includes('inspect') || x.repo.endsWith('-length')) {
+	} else if (x.repo.startsWith('which-') || x.repo.startsWith('get-') || x.repo.includes('inspect') || x.repo.startsWith('typed-array-') || x.repo.startsWith('array-buffer-')) {
 		pkgs.describe.push(x);
 		pkgs.describe.sort(sortRepo);
 	} else if (x.repo.startsWith('is-') || x.repo.endsWith('defined')) {

@@ -6,8 +6,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Functions that ask a question and produce a yes or no answer (`true` or `false`).</summary>
 <br />
 
- - defined - [![github][github]](https://github.com/inspect-js/defined) - [![npm][npm]](https://npmjs.com/defined) - return the first argument that is `!== undefined`
- - is-accessor-descriptor - [![github][github]](https://github.com/inspect-js/is-accessor-descriptor) - [![npm][npm]](https://npmjs.com/is-accessor-descriptor) - Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.
  - is-arguments - [![github][github]](https://github.com/inspect-js/is-arguments) - [![npm][npm]](https://npmjs.com/is-arguments) - Is this an arguments object? It's a harder question than you think.
  - is-array-buffer - [![github][github]](https://github.com/inspect-js/is-array-buffer) - [![npm][npm]](https://npmjs.com/is-array-buffer) - Is this value a JS ArrayBuffer?
  - is-arrow-function - [![github][github]](https://github.com/inspect-js/is-arrow-function) - [![npm][npm]](https://npmjs.com/is-arrow-function) - Determine if a function is an ES6 arrow function or not.
@@ -26,7 +24,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-negative-zero - [![github][github]](https://github.com/inspect-js/is-negative-zero) - [![npm][npm]](https://npmjs.com/is-negative-zero) - Is this value negative zero? === will lie to you
  - is-number-object - [![github][github]](https://github.com/inspect-js/is-number-object) - [![npm][npm]](https://npmjs.com/is-number-object) - Is this value a JS Number object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-object - [![github][github]](https://github.com/inspect-js/is-object) - [![npm][npm]](https://npmjs.com/is-object) - Checks whether a value is an object
- - undefined - [![github][github]](https://github.com/inspect-js/is-package-root) - [![npm][npm]](https://npmjs.com/undefined) - undefined
  - is-regex - [![github][github]](https://github.com/inspect-js/is-regex) - [![npm][npm]](https://npmjs.com/is-regex) - Is this value a JS regex? Works cross-realm/iframe, and despite ES6 @@toStringTag
  - is-registered-symbol - [![github][github]](https://github.com/inspect-js/is-registered-symbol) - [![npm][npm]](https://npmjs.com/is-registered-symbol) - Is this value a Symbol stored in the global cross-realm Symbol registry?
  - is-set - [![github][github]](https://github.com/inspect-js/is-set) - [![npm][npm]](https://npmjs.com/is-set) - Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
@@ -65,11 +62,9 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - functions-have-names - [![github][github]](https://github.com/inspect-js/functions-have-names) - [![npm][npm]](https://npmjs.com/functions-have-names) - Does this JS environment support the `name` property on functions?
  - has-bigints - [![github][github]](https://github.com/inspect-js/has-bigints) - [![npm][npm]](https://npmjs.com/has-bigints) - Determine if the JS environment has BigInt support.
  - has-dynamic-import - [![github][github]](https://github.com/inspect-js/has-dynamic-import) - [![npm][npm]](https://npmjs.com/has-dynamic-import) - Does the current environment have `import()` support?
- - has-object-spread - [![github][github]](https://github.com/inspect-js/has-object-spread) - [![npm][npm]](https://npmjs.com/has-object-spread) - check if the environment supports { ...a } spread syntax
  - has-optional-chaining - [![github][github]](https://github.com/inspect-js/has-optional-chaining) - [![npm][npm]](https://npmjs.com/has-optional-chaining) - Determine if the JS environment has optional chaining support
  - has-override-mistake - [![github][github]](https://github.com/inspect-js/has-override-mistake) - [![npm][npm]](https://npmjs.com/has-override-mistake) - Determine whether the environment has the so-called "override mistake" - [[Set]]ing a property whose ancestor is nonwritable throws.
  - has-package-exports - [![github][github]](https://github.com/inspect-js/has-package-exports) - [![npm][npm]](https://npmjs.com/has-package-exports) - Does the current node version have support for the "exports" field in package.json?
- - has-package-imports - [![github][github]](https://github.com/inspect-js/has-package-imports) - [![npm][npm]](https://npmjs.com/has-package-imports) - Does the current node version have support for the "imports" field in package.json?
  - has-package-self-reference - [![github][github]](https://github.com/inspect-js/has-package-self-reference) - [![npm][npm]](https://npmjs.com/has-package-self-reference) - Does the current node version have support for requiring/importing its own name?
  - has-private-fields - [![github][github]](https://github.com/inspect-js/has-private-fields) - [![npm][npm]](https://npmjs.com/has-private-fields) - Determine if the JS environment has private fields (`class { #x; }`) support.
  - has-property-descriptors - [![github][github]](https://github.com/inspect-js/has-property-descriptors) - [![npm][npm]](https://npmjs.com/has-property-descriptors) - Does the environment have full property descriptor support? Handles IE 8's broken defineProperty/gOPD.
@@ -99,7 +94,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - which-boxed-primitive - [![github][github]](https://github.com/inspect-js/which-boxed-primitive) - [![npm][npm]](https://npmjs.com/which-boxed-primitive) - Which kind of boxed JS primitive is this?
  - which-builtin-type - [![github][github]](https://github.com/inspect-js/which-builtin-type) - [![npm][npm]](https://npmjs.com/which-builtin-type) - What is the type of this builtin JS value?
  - which-collection - [![github][github]](https://github.com/inspect-js/which-collection) - [![npm][npm]](https://npmjs.com/which-collection) - Which kind of Collection (Map, Set, WeakMap, WeakSet) is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.
- - which-typed-array - [![github][github]](https://github.com/inspect-js/which-typed-array) - [![npm][npm]](https://npmjs.com/which-typed-array) - Which kind of Typed Array is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.
 
 </details>
 

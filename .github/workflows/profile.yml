@@ -25,7 +25,7 @@ jobs:
             nodejs.org:443
             raw.githubusercontent.com:443
             registry.npmjs.org:443
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ljharb/actions/node/install@main
         with:
           skip-install: true
@@ -34,6 +34,33 @@ jobs:
       - run: node profile/generate.mjs
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: generate commit message
+        uses: mathiasvr/command-output@v2.0.0
+        id: commit-msg
+        with:
+          run: |
+            git diff profile/README.md | awk '
+            BEGIN {
+                added = "";
+                removed = "";
+            }
+
+            /^\+ - / {
+                split($3, a, "/");
+                if (added != "") added = added ", ";
+                added = added "`" a[1] "`";
+            }
+
+            /^- - / {
+                split($3, b, "/");
+                if (removed != "") removed = removed ", ";
+                removed = removed "`" b[1] "`";
+            }
+
+            END {
+                if (added != "") print "added " added ";";
+                if (removed != "") print " removed " removed;
+            }' | tr -d '\n' && echo
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '[profile] node profile/generate.mjs'
+          commit_message: '[profile] ${{ steps.commit-msg.outputs.stdout }}'

@@ -65,7 +65,7 @@ const repos = edges.map(x => ({
 	repo: x.node.nameWithOwner.slice(org.length + 1),
 	pkg: x.node.object ? JSON.parse(x.node.object.text) : undefined,
 }))
-.filter(({ repo: x }) => !x.startsWith('.'))
+.filter(({ repo: x, pkg }) => pkg && !x.isPrivate && !x.startsWith('.'))
 .sort();
 
 const pkgs = {

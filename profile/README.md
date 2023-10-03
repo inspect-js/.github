@@ -28,7 +28,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-object - [![github][github]](https://github.com/inspect-js/is-object) - [![npm][npm]](https://npmjs.com/is-object) - Checks whether a value is an object
  - is-package-root - [![github][github]](https://github.com/inspect-js/is-package-root) - [![npm][npm]](https://npmjs.com/is-package-root) - Is this directory path the root of a package?
  - is-regex - [![github][github]](https://github.com/inspect-js/is-regex) - [![npm][npm]](https://npmjs.com/is-regex) - Is this value a JS regex? Works cross-realm/iframe, and despite ES6 @@toStringTag
- - is-registered-symbol - [![github][github]](https://github.com/inspect-js/is-registered-symbol) - [![npm][npm]](https://npmjs.com/is-registered-symbol) - Is this value a Symbol stored in the global cross-realm Symbol registry?
  - is-set - [![github][github]](https://github.com/inspect-js/is-set) - [![npm][npm]](https://npmjs.com/is-set) - Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-shared-array-buffer - [![github][github]](https://github.com/inspect-js/is-shared-array-buffer) - [![npm][npm]](https://npmjs.com/is-shared-array-buffer) - Is this value a JS SharedArrayBuffer?
  - is-string - [![github][github]](https://github.com/inspect-js/is-string) - [![npm][npm]](https://npmjs.com/is-string) - Is this value a JS String object or primitive? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
@@ -90,7 +89,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Packages that tell you about a specific JS value.</summary>
 <br />
 
- - array-buffer-byte-length - [![github][github]](https://github.com/inspect-js/array-buffer-byte-length) - [![npm][npm]](https://npmjs.com/array-buffer-byte-length) - Get the byte length of an ArrayBuffer, even in engines without a `.byteLength` method.
  - get-symbol-description - [![github][github]](https://github.com/inspect-js/get-symbol-description) - [![npm][npm]](https://npmjs.com/get-symbol-description) - Gets the description of a Symbol. Handles `Symbol()` vs `Symbol('')` properly when possible.
  - object-inspect - [![github][github]](https://github.com/inspect-js/object-inspect) - [![npm][npm]](https://npmjs.com/object-inspect) - string representations of objects in node and the browser
  - typed-array-byte-length - [![github][github]](https://github.com/inspect-js/typed-array-byte-length) - [![npm][npm]](https://npmjs.com/typed-array-byte-length) - Robustly get the byte length of a Typed Array
@@ -98,7 +96,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - typed-array-length - [![github][github]](https://github.com/inspect-js/typed-array-length) - [![npm][npm]](https://npmjs.com/typed-array-length) - Robustly get the length of a Typed Array
  - which-boxed-primitive - [![github][github]](https://github.com/inspect-js/which-boxed-primitive) - [![npm][npm]](https://npmjs.com/which-boxed-primitive) - Which kind of boxed JS primitive is this?
  - which-builtin-type - [![github][github]](https://github.com/inspect-js/which-builtin-type) - [![npm][npm]](https://npmjs.com/which-builtin-type) - What is the type of this builtin JS value?
- - which-collection - [![github][github]](https://github.com/inspect-js/which-collection) - [![npm][npm]](https://npmjs.com/which-collection) - Which kind of Collection (Map, Set, WeakMap, WeakSet) is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.
  - which-typed-array - [![github][github]](https://github.com/inspect-js/which-typed-array) - [![npm][npm]](https://npmjs.com/which-typed-array) - Which kind of Typed Array is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.
 
 </details>

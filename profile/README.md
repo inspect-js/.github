@@ -25,6 +25,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-map - [![github][github]](https://github.com/inspect-js/is-map) - [![npm][npm]](https://npmjs.com/is-map) - Is this value a JS Map? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-negative-zero - [![github][github]](https://github.com/inspect-js/is-negative-zero) - [![npm][npm]](https://npmjs.com/is-negative-zero) - Is this value negative zero? === will lie to you
  - is-number-object - [![github][github]](https://github.com/inspect-js/is-number-object) - [![npm][npm]](https://npmjs.com/is-number-object) - Is this value a JS Number object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
+ - is-object - [![github][github]](https://github.com/inspect-js/is-object) - [![npm][npm]](https://npmjs.com/is-object) - Checks whether a value is an object
  - is-package-root - [![github][github]](https://github.com/inspect-js/is-package-root) - [![npm][npm]](https://npmjs.com/is-package-root) - Is this directory path the root of a package?
  - is-regex - [![github][github]](https://github.com/inspect-js/is-regex) - [![npm][npm]](https://npmjs.com/is-regex) - Is this value a JS regex? Works cross-realm/iframe, and despite ES6 @@toStringTag
  - is-registered-symbol - [![github][github]](https://github.com/inspect-js/is-registered-symbol) - [![npm][npm]](https://npmjs.com/is-registered-symbol) - Is this value a Symbol stored in the global cross-realm Symbol registry?
@@ -46,6 +47,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Packages that compare two things.</summary>
 <br />
 
+ - buffer-equal - [![github][github]](https://github.com/inspect-js/buffer-equal) - [![npm][npm]](https://npmjs.com/buffer-equal) - return whether two buffers are equal
  - deep-equal-json - [![github][github]](https://github.com/inspect-js/deep-equal-json) - [![npm][npm]](https://npmjs.com/deep-equal-json) - `deep-equal`, but only for JSON-supported values.
  - is-equal - [![github][github]](https://github.com/inspect-js/is-equal) - [![npm][npm]](https://npmjs.com/is-equal) - Are these two values conceptually equal?
  - deep-equal - [![github][github]](https://github.com/inspect-js/node-deep-equal) - [![npm][npm]](https://npmjs.com/deep-equal) - node's assert.deepEqual algorithm
@@ -73,6 +75,8 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - has-property-descriptors - [![github][github]](https://github.com/inspect-js/has-property-descriptors) - [![npm][npm]](https://npmjs.com/has-property-descriptors) - Does the environment have full property descriptor support? Handles IE 8's broken defineProperty/gOPD.
  - has-proto - [![github][github]](https://github.com/inspect-js/has-proto) - [![npm][npm]](https://npmjs.com/has-proto) - Does this environment have the ability to get the [[Prototype]] of an object on creation with `__proto__`?
  - has-strict-mode - [![github][github]](https://github.com/inspect-js/has-strict-mode) - [![npm][npm]](https://npmjs.com/has-strict-mode) - Does the current JS environment have strict mode? ES5+ should; but let's not assume.
+ - has-symbols - [![github][github]](https://github.com/inspect-js/has-symbols) - [![npm][npm]](https://npmjs.com/has-symbols) - Determine if the JS environment has Symbol support. Supports spec, or shams.
+ - has-template-literals - [![github][github]](https://github.com/inspect-js/has-template-literals) - [![npm][npm]](https://npmjs.com/has-template-literals) - Determine if the JS environment has template literal support.
  - has-tostringtag - [![github][github]](https://github.com/inspect-js/has-tostringtag) - [![npm][npm]](https://npmjs.com/has-tostringtag) - Determine if the JS environment has `Symbol.toStringTag` support. Supports spec, or shams.
  - has-typed-arrays - [![github][github]](https://github.com/inspect-js/has-typed-arrays) - [![npm][npm]](https://npmjs.com/has-typed-arrays) - Does this environment have JS Typed Arrays?
  - node-exports-info - [![github][github]](https://github.com/inspect-js/node-exports-info) - [![npm][npm]](https://npmjs.com/node-exports-info) - Info about node `exports` field support: version ranges, categories, etc.

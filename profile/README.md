@@ -16,13 +16,17 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-boolean-object - [![github][github]](https://github.com/inspect-js/is-boolean-object) - [![npm][npm]](https://npmjs.com/is-boolean-object) - Is this value a JS Boolean? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-boxed-primitive - [![github][github]](https://github.com/inspect-js/is-boxed-primitive) - [![npm][npm]](https://npmjs.com/is-boxed-primitive) - Is this value a boxed primitive? Shim for node's util.isBoxedPrimitive.
  - is-callable - [![github][github]](https://github.com/inspect-js/is-callable) - [![npm][npm]](https://npmjs.com/is-callable) - Is this JS value callable? Works with Functions and GeneratorFunctions, despite ES6 @@toStringTag.
+ - is-core-module - [![github][github]](https://github.com/inspect-js/is-core-module) - [![npm][npm]](https://npmjs.com/is-core-module) - Is this specifier a node.js core module?
+ - is-data-descriptor - [![github][github]](https://github.com/inspect-js/is-data-descriptor) - [![npm][npm]](https://npmjs.com/is-data-descriptor) - Returns true if a value has the characteristics of a valid JavaScript data descriptor.
  - is-date-object - [![github][github]](https://github.com/inspect-js/is-date-object) - [![npm][npm]](https://npmjs.com/is-date-object) - Is this value a JS Date object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-descriptor - [![github][github]](https://github.com/inspect-js/is-descriptor) - [![npm][npm]](https://npmjs.com/is-descriptor) - Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.
  - is-finalizationregistry - [![github][github]](https://github.com/inspect-js/is-finalizationregistry) - [![npm][npm]](https://npmjs.com/is-finalizationregistry) - Is this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-generator-function - [![github][github]](https://github.com/inspect-js/is-generator-function) - [![npm][npm]](https://npmjs.com/is-generator-function) - Determine if a function is a native generator function.
  - is-map - [![github][github]](https://github.com/inspect-js/is-map) - [![npm][npm]](https://npmjs.com/is-map) - Is this value a JS Map? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
+ - is-negative-zero - [![github][github]](https://github.com/inspect-js/is-negative-zero) - [![npm][npm]](https://npmjs.com/is-negative-zero) - Is this value negative zero? === will lie to you
  - is-number-object - [![github][github]](https://github.com/inspect-js/is-number-object) - [![npm][npm]](https://npmjs.com/is-number-object) - Is this value a JS Number object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-object - [![github][github]](https://github.com/inspect-js/is-object) - [![npm][npm]](https://npmjs.com/is-object) - Checks whether a value is an object
+ - is-package-root - [![github][github]](https://github.com/inspect-js/is-package-root) - [![npm][npm]](https://npmjs.com/is-package-root) - Is this directory path the root of a package?
  - is-regex - [![github][github]](https://github.com/inspect-js/is-regex) - [![npm][npm]](https://npmjs.com/is-regex) - Is this value a JS regex? Works cross-realm/iframe, and despite ES6 @@toStringTag
  - is-registered-symbol - [![github][github]](https://github.com/inspect-js/is-registered-symbol) - [![npm][npm]](https://npmjs.com/is-registered-symbol) - Is this value a Symbol stored in the global cross-realm Symbol registry?
  - is-set - [![github][github]](https://github.com/inspect-js/is-set) - [![npm][npm]](https://npmjs.com/is-set) - Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
@@ -62,6 +66,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - has-bigints - [![github][github]](https://github.com/inspect-js/has-bigints) - [![npm][npm]](https://npmjs.com/has-bigints) - Determine if the JS environment has BigInt support.
  - has-dynamic-import - [![github][github]](https://github.com/inspect-js/has-dynamic-import) - [![npm][npm]](https://npmjs.com/has-dynamic-import) - Does the current environment have `import()` support?
  - has-object-spread - [![github][github]](https://github.com/inspect-js/has-object-spread) - [![npm][npm]](https://npmjs.com/has-object-spread) - check if the environment supports { ...a } spread syntax
+ - has-optional-chaining - [![github][github]](https://github.com/inspect-js/has-optional-chaining) - [![npm][npm]](https://npmjs.com/has-optional-chaining) - Determine if the JS environment has optional chaining support
  - has-override-mistake - [![github][github]](https://github.com/inspect-js/has-override-mistake) - [![npm][npm]](https://npmjs.com/has-override-mistake) - Determine whether the environment has the so-called "override mistake" - [[Set]]ing a property whose ancestor is nonwritable throws.
  - has-package-exports - [![github][github]](https://github.com/inspect-js/has-package-exports) - [![npm][npm]](https://npmjs.com/has-package-exports) - Does the current node version have support for the "exports" field in package.json?
  - has-package-imports - [![github][github]](https://github.com/inspect-js/has-package-imports) - [![npm][npm]](https://npmjs.com/has-package-imports) - Does the current node version have support for the "imports" field in package.json?
@@ -75,6 +80,7 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - has-tostringtag - [![github][github]](https://github.com/inspect-js/has-tostringtag) - [![npm][npm]](https://npmjs.com/has-tostringtag) - Determine if the JS environment has `Symbol.toStringTag` support. Supports spec, or shams.
  - has-typed-arrays - [![github][github]](https://github.com/inspect-js/has-typed-arrays) - [![npm][npm]](https://npmjs.com/has-typed-arrays) - Does this environment have JS Typed Arrays?
  - node-exports-info - [![github][github]](https://github.com/inspect-js/node-exports-info) - [![npm][npm]](https://npmjs.com/node-exports-info) - Info about node `exports` field support: version ranges, categories, etc.
+ - supports-preserve-symlinks-flag - [![github][github]](https://github.com/inspect-js/node-supports-preserve-symlinks-flag) - [![npm][npm]](https://npmjs.com/supports-preserve-symlinks-flag) - Determine if the current node version supports the `--preserve-symlinks` flag.
 
 </details>
 

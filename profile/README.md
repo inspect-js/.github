@@ -21,7 +21,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-date-object - [![github][github]](https://github.com/inspect-js/is-date-object) - [![npm][npm]](https://npmjs.com/is-date-object) - Is this value a JS Date object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-descriptor - [![github][github]](https://github.com/inspect-js/is-descriptor) - [![npm][npm]](https://npmjs.com/is-descriptor) - Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.
  - is-finalizationregistry - [![github][github]](https://github.com/inspect-js/is-finalizationregistry) - [![npm][npm]](https://npmjs.com/is-finalizationregistry) - Is this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
- - is-generator-function - [![github][github]](https://github.com/inspect-js/is-generator-function) - [![npm][npm]](https://npmjs.com/is-generator-function) - Determine if a function is a native generator function.
  - is-map - [![github][github]](https://github.com/inspect-js/is-map) - [![npm][npm]](https://npmjs.com/is-map) - Is this value a JS Map? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-negative-zero - [![github][github]](https://github.com/inspect-js/is-negative-zero) - [![npm][npm]](https://npmjs.com/is-negative-zero) - Is this value negative zero? === will lie to you
  - is-number-object - [![github][github]](https://github.com/inspect-js/is-number-object) - [![npm][npm]](https://npmjs.com/is-number-object) - Is this value a JS Number object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
@@ -29,7 +28,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-package-root - [![github][github]](https://github.com/inspect-js/is-package-root) - [![npm][npm]](https://npmjs.com/is-package-root) - Is this directory path the root of a package?
  - is-regex - [![github][github]](https://github.com/inspect-js/is-regex) - [![npm][npm]](https://npmjs.com/is-regex) - Is this value a JS regex? Works cross-realm/iframe, and despite ES6 @@toStringTag
  - is-registered-symbol - [![github][github]](https://github.com/inspect-js/is-registered-symbol) - [![npm][npm]](https://npmjs.com/is-registered-symbol) - Is this value a Symbol stored in the global cross-realm Symbol registry?
- - is-set - [![github][github]](https://github.com/inspect-js/is-set) - [![npm][npm]](https://npmjs.com/is-set) - Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-shared-array-buffer - [![github][github]](https://github.com/inspect-js/is-shared-array-buffer) - [![npm][npm]](https://npmjs.com/is-shared-array-buffer) - Is this value a JS SharedArrayBuffer?
  - is-string - [![github][github]](https://github.com/inspect-js/is-string) - [![npm][npm]](https://npmjs.com/is-string) - Is this value a JS String object or primitive? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-symbol - [![github][github]](https://github.com/inspect-js/is-symbol) - [![npm][npm]](https://npmjs.com/is-symbol) - Determine if a value is an ES6 Symbol or not.
@@ -49,7 +47,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 
  - buffer-equal - [![github][github]](https://github.com/inspect-js/buffer-equal) - [![npm][npm]](https://npmjs.com/buffer-equal) - return whether two buffers are equal
  - deep-equal-json - [![github][github]](https://github.com/inspect-js/deep-equal-json) - [![npm][npm]](https://npmjs.com/deep-equal-json) - `deep-equal`, but only for JSON-supported values.
- - is-equal - [![github][github]](https://github.com/inspect-js/is-equal) - [![npm][npm]](https://npmjs.com/is-equal) - Are these two values conceptually equal?
  - deep-equal - [![github][github]](https://github.com/inspect-js/node-deep-equal) - [![npm][npm]](https://npmjs.com/deep-equal) - node's assert.deepEqual algorithm
 
 </details>
@@ -77,7 +74,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - has-strict-mode - [![github][github]](https://github.com/inspect-js/has-strict-mode) - [![npm][npm]](https://npmjs.com/has-strict-mode) - Does the current JS environment have strict mode? ES5+ should; but let's not assume.
  - has-symbols - [![github][github]](https://github.com/inspect-js/has-symbols) - [![npm][npm]](https://npmjs.com/has-symbols) - Determine if the JS environment has Symbol support. Supports spec, or shams.
  - has-template-literals - [![github][github]](https://github.com/inspect-js/has-template-literals) - [![npm][npm]](https://npmjs.com/has-template-literals) - Determine if the JS environment has template literal support.
- - has-tostringtag - [![github][github]](https://github.com/inspect-js/has-tostringtag) - [![npm][npm]](https://npmjs.com/has-tostringtag) - Determine if the JS environment has `Symbol.toStringTag` support. Supports spec, or shams.
  - has-typed-arrays - [![github][github]](https://github.com/inspect-js/has-typed-arrays) - [![npm][npm]](https://npmjs.com/has-typed-arrays) - Does this environment have JS Typed Arrays?
  - node-exports-info - [![github][github]](https://github.com/inspect-js/node-exports-info) - [![npm][npm]](https://npmjs.com/node-exports-info) - Info about node `exports` field support: version ranges, categories, etc.
  - supports-preserve-symlinks-flag - [![github][github]](https://github.com/inspect-js/node-supports-preserve-symlinks-flag) - [![npm][npm]](https://npmjs.com/supports-preserve-symlinks-flag) - Determine if the current node version supports the `--preserve-symlinks` flag.
@@ -91,7 +87,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <br />
 
  - array-buffer-byte-length - [![github][github]](https://github.com/inspect-js/array-buffer-byte-length) - [![npm][npm]](https://npmjs.com/array-buffer-byte-length) - Get the byte length of an ArrayBuffer, even in engines without a `.byteLength` method.
- - get-symbol-description - [![github][github]](https://github.com/inspect-js/get-symbol-description) - [![npm][npm]](https://npmjs.com/get-symbol-description) - Gets the description of a Symbol. Handles `Symbol()` vs `Symbol('')` properly when possible.
  - object-inspect - [![github][github]](https://github.com/inspect-js/object-inspect) - [![npm][npm]](https://npmjs.com/object-inspect) - string representations of objects in node and the browser
  - typed-array-byte-length - [![github][github]](https://github.com/inspect-js/typed-array-byte-length) - [![npm][npm]](https://npmjs.com/typed-array-byte-length) - Robustly get the byte length of a Typed Array
  - typed-array-byte-offset - [![github][github]](https://github.com/inspect-js/typed-array-byte-offset) - [![npm][npm]](https://npmjs.com/typed-array-byte-offset) - Robustly get the byte offset of a Typed Array

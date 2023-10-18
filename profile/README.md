@@ -19,7 +19,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-core-module - [![github][github]](https://github.com/inspect-js/is-core-module) - [![npm][npm]](https://npmjs.com/is-core-module) - Is this specifier a node.js core module?
  - is-data-descriptor - [![github][github]](https://github.com/inspect-js/is-data-descriptor) - [![npm][npm]](https://npmjs.com/is-data-descriptor) - Returns true if a value has the characteristics of a valid JavaScript data descriptor.
  - is-date-object - [![github][github]](https://github.com/inspect-js/is-date-object) - [![npm][npm]](https://npmjs.com/is-date-object) - Is this value a JS Date object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
- - is-descriptor - [![github][github]](https://github.com/inspect-js/is-descriptor) - [![npm][npm]](https://npmjs.com/is-descriptor) - Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.
  - is-finalizationregistry - [![github][github]](https://github.com/inspect-js/is-finalizationregistry) - [![npm][npm]](https://npmjs.com/is-finalizationregistry) - Is this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-generator-function - [![github][github]](https://github.com/inspect-js/is-generator-function) - [![npm][npm]](https://npmjs.com/is-generator-function) - Determine if a function is a native generator function.
  - is-map - [![github][github]](https://github.com/inspect-js/is-map) - [![npm][npm]](https://npmjs.com/is-map) - Is this value a JS Map? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
@@ -50,7 +49,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - buffer-equal - [![github][github]](https://github.com/inspect-js/buffer-equal) - [![npm][npm]](https://npmjs.com/buffer-equal) - return whether two buffers are equal
  - deep-equal-json - [![github][github]](https://github.com/inspect-js/deep-equal-json) - [![npm][npm]](https://npmjs.com/deep-equal-json) - `deep-equal`, but only for JSON-supported values.
  - is-equal - [![github][github]](https://github.com/inspect-js/is-equal) - [![npm][npm]](https://npmjs.com/is-equal) - Are these two values conceptually equal?
- - deep-equal - [![github][github]](https://github.com/inspect-js/node-deep-equal) - [![npm][npm]](https://npmjs.com/deep-equal) - node's assert.deepEqual algorithm
 
 </details>
 
@@ -92,7 +90,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 
  - array-buffer-byte-length - [![github][github]](https://github.com/inspect-js/array-buffer-byte-length) - [![npm][npm]](https://npmjs.com/array-buffer-byte-length) - Get the byte length of an ArrayBuffer, even in engines without a `.byteLength` method.
  - get-symbol-description - [![github][github]](https://github.com/inspect-js/get-symbol-description) - [![npm][npm]](https://npmjs.com/get-symbol-description) - Gets the description of a Symbol. Handles `Symbol()` vs `Symbol('')` properly when possible.
- - object-inspect - [![github][github]](https://github.com/inspect-js/object-inspect) - [![npm][npm]](https://npmjs.com/object-inspect) - string representations of objects in node and the browser
  - typed-array-byte-length - [![github][github]](https://github.com/inspect-js/typed-array-byte-length) - [![npm][npm]](https://npmjs.com/typed-array-byte-length) - Robustly get the byte length of a Typed Array
  - typed-array-byte-offset - [![github][github]](https://github.com/inspect-js/typed-array-byte-offset) - [![npm][npm]](https://npmjs.com/typed-array-byte-offset) - Robustly get the byte offset of a Typed Array
  - typed-array-length - [![github][github]](https://github.com/inspect-js/typed-array-length) - [![npm][npm]](https://npmjs.com/typed-array-length) - Robustly get the length of a Typed Array

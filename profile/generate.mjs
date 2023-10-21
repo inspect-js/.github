@@ -82,7 +82,7 @@ repos.forEach((x) => {
 	if (x.repo.endsWith('-equal') || x.repo.endsWith('-is') || x.repo.startsWith('deep-equal-')) {
 		pkgs.comparisons.push(x);
 		pkgs.comparisons.sort(sortRepo);
-	} else if (x.repo.startsWith('has-') || x.repo.startsWith('available-') || x.repo.includes('-have-') || x.repo.includes('supports-') || x.repo.endsWith('-info')) {
+	} else if (/^has(?:-|[A-Z])/.test(x.repo) || x.repo.startsWith('available-') || x.repo.includes('-have-') || x.repo.includes('supports-') || x.repo.endsWith('-info')) {
 		pkgs.environment.push(x);
 		pkgs.environment.sort(sortRepo);
 	} else if (x.repo.startsWith('which-') || x.repo.startsWith('get-') || x.repo.includes('inspect') || x.repo.startsWith('typed-array-') || x.repo.startsWith('array-buffer-')) {

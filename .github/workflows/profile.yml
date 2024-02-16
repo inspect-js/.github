@@ -58,8 +58,9 @@ jobs:
             }
 
             END {
-                if (added != "") print "added " added ";";
-                if (removed != "") print " removed " removed;
+                if (added != "") print "added " added;
+                if (added != "" && removed != "") print "; ";
+                if (removed != "") print "removed " removed;
             }' | tr -d '\n' && echo
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:

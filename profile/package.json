@@ -7,6 +7,6 @@
 	},
 	"author": "Jordan Harband <ljharb@gmail.com>",
 	"devDependencies": {
-		"@octokit/graphql": "^4.8.0"
+		"@octokit/graphql": "^8.0.1"
 	}
 }

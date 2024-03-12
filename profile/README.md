@@ -94,6 +94,9 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <br />
 
  - array-buffer-byte-length - [![github][github]](https://github.com/inspect-js/array-buffer-byte-length) - [![npm][npm]](https://npmjs.com/array-buffer-byte-length) - Get the byte length of an ArrayBuffer, even in engines without a `.byteLength` method.
+ - data-view-buffer - [![github][github]](https://github.com/inspect-js/data-view-buffer) - [![npm][npm]](https://npmjs.com/data-view-buffer) - Get the ArrayBuffer out of a DataView, robustly.
+ - data-view-byte-length - [![github][github]](https://github.com/inspect-js/data-view-byte-length) - [![npm][npm]](https://npmjs.com/data-view-byte-length) - Get the byteLength out of a DataView, robustly.
+ - data-view-byte-offset - [![github][github]](https://github.com/inspect-js/data-view-byte-offset) - [![npm][npm]](https://npmjs.com/data-view-byte-offset) - Get the byteOffset out of a DataView, robustly.
  - get-symbol-description - [![github][github]](https://github.com/inspect-js/get-symbol-description) - [![npm][npm]](https://npmjs.com/get-symbol-description) - Gets the description of a Symbol. Handles `Symbol()` vs `Symbol('')` properly when possible.
  - object-inspect - [![github][github]](https://github.com/inspect-js/object-inspect) - [![npm][npm]](https://npmjs.com/object-inspect) - string representations of objects in node and the browser
  - typed-array-buffer - [![github][github]](https://github.com/inspect-js/typed-array-buffer) - [![npm][npm]](https://npmjs.com/typed-array-buffer) - Get the ArrayBuffer out of a TypedArray, robustly.

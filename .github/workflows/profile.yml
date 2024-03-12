@@ -62,6 +62,6 @@ jobs:
                 if (added != "" && removed != "") print "; ";
                 if (removed != "") print "removed " removed;
             }' | tr -d '\n' && echo
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: '[profile] ${{ steps.commit-msg.outputs.stdout }}'
